@@ -1,7 +1,9 @@
+import os
 import sqlite3
 
 def add_enquiries_table():
-    conn = sqlite3.connect('e:/wayfar/database.db')
+    db_path = os.path.join(os.path.dirname(__file__), 'database.db')
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
     try:

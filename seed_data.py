@@ -1,8 +1,10 @@
+import os
 import sqlite3
 from werkzeug.security import generate_password_hash
 
 def seed_data():
-    conn = sqlite3.connect("database.db")
+    db_path = os.path.join(os.path.dirname(__file__), 'database.db')
+    conn = sqlite3.connect(db_path)
     cur = conn.cursor()
 
     # Seed Admin User

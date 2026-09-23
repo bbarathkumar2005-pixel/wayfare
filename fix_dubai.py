@@ -1,9 +1,11 @@
 
+import os
 import sqlite3
 
 def fix_dubai_image():
     try:
-        conn = sqlite3.connect('e:/wayfar/database.db')
+        db_path = os.path.join(os.path.dirname(__file__), 'database.db')
+        conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
         
         # Check current URL

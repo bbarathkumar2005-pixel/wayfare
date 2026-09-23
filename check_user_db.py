@@ -1,9 +1,11 @@
 
+import os
 import sqlite3
 from werkzeug.security import check_password_hash
 
 def check_user():
-    conn = sqlite3.connect('e:/wayfar/database.db')
+    db_path = os.path.join(os.path.dirname(__file__), 'database.db')
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     

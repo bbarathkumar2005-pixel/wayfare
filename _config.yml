@@ -1,3 +1,18 @@
-# Disable Jekyll theme rendering
 theme: null
 plugins: []
+include:
+  - index.html
+  - destinations.html
+  - packages.html
+  - about.html
+  - contact.html
+  - dashboard.html
+  - admin.html
+  - payment.html
+  - receipt.html
+  - static
+exclude:
+  - README.md
+  - app.py
+  - database.db
+  - "*.py"

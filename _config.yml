@@ -1,0 +1,3 @@
+# Disable Jekyll theme rendering
+theme: null
+plugins: []

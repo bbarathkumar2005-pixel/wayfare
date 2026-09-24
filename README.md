@@ -2,7 +2,7 @@
 
 ![Wayfare Preview](https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&h=400&fit=crop)
 
-Live Demo: [https://bbarathkumar2005-pixel.github.io/wayfare./](https://bbarathkumar2005-pixel.github.io/wayfare./)
+Live Demo: [https://bbarathkumar2005-pixel.github.io/wayfare/](https://bbarathkumar2005-pixel.github.io/wayfare/)
 
 ---
 
